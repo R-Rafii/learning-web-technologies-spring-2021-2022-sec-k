@@ -1,0 +1,44 @@
+<person_info>
+
+	<ID = "1">
+		<NAME> John Doe </NAME>
+		<ADDRESS>
+			<Flat></Flat>
+			<house> H#38 </house>
+			<road>  R#3 </road>
+			<area> Banani </area>
+			<city> Dhaka </city>
+		</ADDRESS>
+		<DEPARTMENT> Sales </DEPARTMENT>
+		<SALARY> $20000 </SALARY>
+	</ID>
+	
+	
+	<ID = "2">
+		<NAME> Mark Zukerberg </NAME>
+		<ADDRESS>
+			<Flat>Flat# A/1</Flat>
+			<house> H# 20 </house>
+			<road>  R#18 </road>
+			<area> Mirpur </area>
+			<city> Dhaka </city>
+		</ADDRESS>
+		<DEPARTMENT> Accounts </DEPARTMENT>
+		<SALARY> $12000 </SALARY>
+	</ID>
+
+
+	<ID = "3">
+		<NAME> Ala Voski </NAME>
+		<ADDRESS>
+			<Flat></Flat>
+			<house> H#38 </house>
+			<road>  R#3 </road>
+			<area> Motijheel </area>
+			<city></city>
+		</ADDRESS>
+		<DEPARTMENT> Human Resource </DEPARTMENT>
+		<SALARY> $30000 </SALARY>
+	</ID>	
+
+</person_info>
