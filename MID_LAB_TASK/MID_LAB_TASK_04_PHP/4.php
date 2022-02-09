@@ -2,7 +2,8 @@
   $n1 = (float)readline('Enter 1st Number : ');
   $n2 = (float)readline('Enter 2nd Number : ');
   $n3 = (float)readline('Enter 3rd Number : ');
-  function large($x, $y, $z) {
+  function large($x, $y, $z) 
+  {
       $max = $x;
 
       if ($x >= $y && $x >= $z)

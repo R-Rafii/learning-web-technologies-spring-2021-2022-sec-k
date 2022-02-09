@@ -21,7 +21,7 @@
     }
     echo "<br>";
 
-    $alpha=["1st"=>"A","2nd"=>"B C","3rd"=>"D E F"];
+    $alpha=["1"=>"A","2"=>"B C","3"=>"D E F"];
     foreach ($alpha as $p=>$r)
     {
      echo $r."<br>";
