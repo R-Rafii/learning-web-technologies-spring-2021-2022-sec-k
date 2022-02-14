@@ -1,6 +1,7 @@
 
 <?php 
 	$email = "";
+	$msg = "";
 
 	if(isset($_REQUEST['emailSubmit'])){
 		
@@ -8,7 +9,7 @@
 			echo "Please enter Your email";
 		}else{
 			$email = $_REQUEST['email'];
-			
+			$msg = "Email : ".$_REQUEST['email'];
 		}
 	}
 ?>
@@ -22,10 +23,11 @@
 	<form method="POST" action="">
 	
 			
-		<td><input type="name" name="email" value="<?=$email?>" /><br></td>
+		<input type="name" name="email" value="<?=$email?>" /><br>
 		<hr style="width:12%;text-align:left;margin-left:2"></hr>
 		<input type="submit" name="emailSubmit" value="Submit">
 	</form>
 	</fieldset>
+	<?=$msg?>
 </body>
 </html>
