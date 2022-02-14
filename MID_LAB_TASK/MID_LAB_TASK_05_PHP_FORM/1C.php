@@ -1,7 +1,6 @@
 <?php
 	$msg = "";
 	$a = 1 ;
-	$a ++ ;
 	if(isset($_REQUEST['nameSubmit']))
 	{	
 		if($_REQUEST['name'.$a] == null)
