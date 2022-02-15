@@ -36,5 +36,14 @@
 			echo "Gender : ".$_REQUEST['gender'];
 		}
 	}
-	
+	if(isset($_REQUEST['dSubmit']))
+	{
+		if(empty($_REQUEST['d']))
+		{
+			echo "Degree : ".$_REQUEST['d'];
+		}
+		else{
+			echo "Degree : ".$_REQUEST['d'];
+		}	
+	}
 ?>
