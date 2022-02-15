@@ -26,5 +26,15 @@
 			echo "Date of birth : ".$_REQUEST['dob'];
 		}
 	}
+	if(isset($_REQUEST['genderSubmit']))
+	{
+		if(empty($_REQUEST['gender']))
+		{
+			echo "Gender is empty....";
+		}
+		else{
+			echo "Gender : ".$_REQUEST['gender'];
+		}
+	}
 	
 ?>
