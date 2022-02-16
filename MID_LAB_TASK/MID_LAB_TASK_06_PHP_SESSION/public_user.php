@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Home</title>
+	<title>Public User</title>
 </head>
 <body>
 	<table border="1" width="100%">
