@@ -1,21 +1,21 @@
 <html>
 <head>
-	<title>Blood Group</title>
+	<title>Home</title>
 </head>
 <body>
 	<table border="1" width="100%">
 		<tr>
 			<td rowspan="4" >Public User</td>
-			<td>Public Home</td>
+			<td><a href="publicHome.php"> Public Home </a></td>
 		</tr>
 		<tr>
-			<td>Registration</td>
+			<td><a href="registration.php"> Registration </a></td>
 		</tr>
 		<tr>
-			<td>Login</td>
+			<td><a href="login.php"> Login </a></td>
 		</tr>
 		<tr>
-			<td>Forgot Password</td>
+			<td><a href="forgotPassword.php"> Forgot Password </a></td>
 		</tr>
 	</table>
 </body>
