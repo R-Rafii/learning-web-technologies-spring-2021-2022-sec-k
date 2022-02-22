@@ -38,7 +38,7 @@
 							<td colspan="2"><hr style="width:100%;text-align:left;margin-left:2"></hr></td>
 						</tr>
 						<tr>
-							<td colspan="2"><input type="checkbox" name="rememberMe" value="remember"> Remember Me </td>
+							<td colspan="2"><input type="checkbox" name="rememberMe" value=""> Remember Me </td>
 						</tr>
 						<tr>
 							<td><input type="submit" name="loginSubmit" value="Submit"></td>
